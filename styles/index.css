@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write you own custom component styles here */
+.btn-blue {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+.borderBot {
+  border-bottom: solid 2px #8d5273;
+}
+
+.borderBot:hover {
+  border-bottom: solid 2px #c3727c;
+}
+
+.trapezoid {
+  border-radius: 0px 0px 30px 30px;
+}
+
+.intro {
+  background-attachment: fixed;
+  background-image: url("../public/images/intro.svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
