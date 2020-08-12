@@ -18,8 +18,7 @@ module.exports = {
       },
       fontFamily: {
         body: ["Mulish"],
-        roboto: ["Roboto"],
-        noto: ["Noto Sans JP"],
+        montserrat: ["Montserrat"],
       },
     },
   },

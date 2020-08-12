@@ -5,6 +5,7 @@ import AOS from "aos";
 import Portfolio from "../components/Portfolio";
 import SidePanel from "../components/SidePanel";
 import Landing from "../components/Landing";
+import Stacks from "../components/Stacks";
 
 export default function Home() {
   useEffect(() => {
@@ -30,7 +31,7 @@ export default function Home() {
         </div>
 
         {/* content section */}
-        <div className="col-span-9 bg-eminence intro font-noto h-screen overflow-auto">
+        <div className="col-span-9 bg-eminence intro h-screen overflow-auto">
           <div className="mb-64" id="home" />
 
           {/* contact section */}
@@ -68,146 +69,16 @@ export default function Home() {
           {/* landing section */}
           <Landing />
 
-          {/* about section */}
-          <div className="mt-56 bg-plum py-24 px-12" id="stacks">
-            <div className="text-3xl font-bold">My technology stacks:</div>
-            <div className="">
-              <div
-                // data-aos="fade-up"
-                className="mt-10 flex justify-between rounded-lg items-center bg-rose hover:bg-eminence hover:shadow-xl"
-              >
-                <div className="text-2xl font-semibold mr-10 ml-4">
-                  Front End
-                </div>
-                <div className="flex">
-                  <img
-                    src={"/images/react.webp"}
-                    className="w-16 mx-6 my-4"
-                    alt="stacks"
-                  />
-                  <img
-                    src={"/images/html.webp"}
-                    className="w-16 mx-6 my-4"
-                    alt="stacks"
-                  />
-                  <img
-                    src={"/images/css.webp"}
-                    className="w-16 mx-6 my-4"
-                    alt="stacks"
-                  />
-                  <img
-                    src={"/images/javascript.webp"}
-                    className="w-16 mx-6 my-4"
-                    alt="stacks"
-                  />
-                  <img
-                    src={"/images/next.webp"}
-                    className="w-16 mx-6 my-4"
-                    alt="stacks"
-                  />
-                  <img
-                    src={"/images/tailwind.webp"}
-                    className="w-16 mx-6 my-4"
-                    alt="stacks"
-                  />
-                  <img
-                    src={"/images/bootstrap.webp"}
-                    className="w-16 mx-6 my-4"
-                    alt="stacks"
-                  />
-                </div>
-              </div>
-              <div className="mt-10 flex justify-between rounded-lg items-center bg-rose hover:bg-eminence hover:shadow-xl">
-                <div className="text-2xl font-semibold mr-10 ml-4">
-                  Back End
-                </div>
-                <div className="flex">
-                  <img
-                    src={"/images/python.webp"}
-                    className="w-16 mx-6 my-4"
-                    alt="stacks"
-                  />
-                  <img
-                    src={"/images/flask.webp"}
-                    className="w-16 mx-6 my-4"
-                    alt="stacks"
-                  />
-                  <img
-                    src={"/images/django.webp"}
-                    className="w-16 mx-6 my-4"
-                    alt="stacks"
-                  />
-                  <img
-                    src={"/images/node.webp"}
-                    className="w-16 mx-6 my-4"
-                    alt="stacks"
-                  />
-                  <img
-                    src={"/images/express.webp"}
-                    className="w-16 mx-6 my-4"
-                    alt="stacks"
-                  />
-                </div>
-              </div>
-              <div className="mt-10 flex justify-between rounded-lg items-center bg-rose hover:bg-eminence hover:shadow-xl">
-                <div className="text-2xl font-semibold mr-10 ml-4">
-                  Deployment
-                </div>
-                <div className="flex">
-                  <img
-                    src={"/images/aws.webp"}
-                    className="w-16 mx-6 my-4"
-                    alt="stacks"
-                  />
-                  <img
-                    src={"/images/gcp.webp"}
-                    className="w-16 mx-6 my-4"
-                    alt="stacks"
-                  />
-                  <img
-                    src={"/images/docker.webp"}
-                    className="w-16 mx-6 my-4"
-                    alt="stacks"
-                  />
-                  <img
-                    src={"/images/nginx.webp"}
-                    className="w-16 mx-6 my-4"
-                    alt="stacks"
-                  />
-                  <img
-                    src={"/images/travis.webp"}
-                    className="w-16 mx-6 my-4"
-                    alt="stacks"
-                  />
-                </div>
-              </div>
-              <div className="mt-10 flex justify-between rounded-lg items-center bg-rose hover:bg-eminence hover:shadow-xl">
-                <div className="text-2xl font-semibold mr-10 ml-4">
-                  Database Management System
-                </div>
-                <div className="flex">
-                  <img
-                    src={"/images/mysql.webp"}
-                    className="w-16 mx-6 my-4"
-                    alt="stacks"
-                  />
-                  <img
-                    src={"/images/mongo.webp"}
-                    className="w-16 mx-6 my-4"
-                    alt="stacks"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
+          {/* Technology stacks section */}
+          <Stacks />
 
           {/* Portfolios */}
           <Portfolio />
 
           {/* Footer */}
-          <div className="bg-eminence py-6 text-xl font-body text-center">
+          <div className="bg-rose py-6 text-xl text-oxford font-body text-center">
             Created by Andre Novado
-            <span className="mx-8">•</span>
+            <span className="mx-4">•</span>
             2020
           </div>
         </div>

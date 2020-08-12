@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
 @tailwind base;
 
@@ -13,6 +12,18 @@
 /* Write you own custom component styles here */
 .btn-blue {
   @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
+
+.stack {
+  @apply col-span-2 w-24 h-24 p-4 my-2 rounded-full border-solid border-plum items-center flex mx-auto;
+}
+
+.button-oxford {
+  @apply border border-solid border-coral  rounded-full px-10 py-2 mt-4;
+}
+
+.button-coral {
+  @apply border border-solid border-oxford  rounded-full px-10 py-2 mt-4;
 }
 
 /* Start purging... */
