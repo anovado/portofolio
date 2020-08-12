@@ -1,6 +1,6 @@
 export default function Portfolio() {
   return (
-    <div className="bg-transparent py-2" id="portfolios">
+    <div className="bg-transparent pt-2" id="portfolios">
       <div className="text-5xl font-extrabold ml-12 font-body tracking-wider">
         Portfolios
       </div>

@@ -70,9 +70,7 @@ export default function Home() {
 
           {/* about section */}
           <div className="mt-56 bg-plum py-24 px-12" id="stacks">
-            <div className="text-3xl font-bold">
-              This is what I have learned in 6 months:
-            </div>
+            <div className="text-3xl font-bold">My technology stacks:</div>
             <div className="">
               <div
                 // data-aos="fade-up"
@@ -176,6 +174,11 @@ export default function Home() {
                     className="w-16 mx-6 my-4"
                     alt="stacks"
                   />
+                  <img
+                    src={"/images/travis.webp"}
+                    className="w-16 mx-6 my-4"
+                    alt="stacks"
+                  />
                 </div>
               </div>
               <div className="mt-10 flex justify-between rounded-lg items-center bg-rose hover:bg-eminence hover:shadow-xl">
@@ -200,6 +203,13 @@ export default function Home() {
 
           {/* Portfolios */}
           <Portfolio />
+
+          {/* Footer */}
+          <div className="bg-eminence py-6 text-xl font-body text-center">
+            Created by Andre Novado
+            <span className="mx-8">•</span>
+            2020
+          </div>
         </div>
       </div>
     </div>
