@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import AOS from "aos";
 import Portfolio from "../components/Portfolio";
+import Contact from "../components/Contact";
 import SidePanel from "../components/SidePanel";
 import Landing from "../components/Landing";
 import Stacks from "../components/Stacks";
@@ -24,47 +25,18 @@ export default function Home() {
         />
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       </Head>
-      <div className="text-white grid grid-cols-12">
+      <div className="text-white md:grid md:grid-cols-10 lg:grid-cols-12">
         {/* side panel */}
-        <div className="col-span-3 bg-oxford items-center font-body text- h-screen flex justify-end">
+        <div className="md:col-span-2 lg:col-span-3 bg-oxford items-center font-body md:h-screen flex md:justify-end">
           <SidePanel />
         </div>
 
         {/* content section */}
-        <div className="col-span-9 bg-eminence intro h-screen overflow-auto">
-          <div className="mb-64" id="home" />
+        <div className="col-span-8 lg:col-span-9 bg-eminence intro md:h-screen md:overflow-auto">
+          <div className="pb-16 md:pb-0 md:mb-32 lg:mb-64" id="home" />
 
           {/* contact section */}
-          <div className="top-0 right-0 mr-10 py-2 absolute flex trapezoid bg-coral justify-center shadow-2xl w-64">
-            <a href="https://www.linkedin.com/in/andre-novado/" target="blank">
-              <img
-                src={"/images/linkedin.webp"}
-                className="w-8"
-                alt="Linked In"
-              />
-            </a>
-            <a href="https://github.com/anovado" target="blank">
-              <img
-                src={"/images/github.webp"}
-                className="w-8 mx-4"
-                alt="Github"
-              />
-            </a>
-            <a href="mailto:andrenovado@gmail.com" target="blank">
-              <img
-                src={"/images/email.webp"}
-                className="w-8 mr-4"
-                alt="Email"
-              />
-            </a>
-            <a href="https://www.facebook.com/andre.novado/" target="blank">
-              <img
-                src={"/images/facebook.webp"}
-                className="w-8"
-                alt="Facebook"
-              />
-            </a>
-          </div>
+          <Contact />
 
           {/* landing section */}
           <Landing />
