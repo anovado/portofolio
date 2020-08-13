@@ -23,10 +23,11 @@ export default function Portfolio() {
               />
             </div>
             <div className="mt-2 text-lg md:px-8 lg:px-0">
-              A martplace to connect Publishers (people who own outdoor
-              advertising spot) and Users (people who want to advertise their
-              products) in a mobile and online platform. I was part of a 3
-              person team who created this using React and Python Flask.
+              A marketplace to connect those who own outdoor advertising spots
+              and those who want to advertise their products in a mobile and
+              online platform. I was part of a 3 person team who created this
+              using React and Python Flask. My role was as the leader of the
+              team.
             </div>
             <a href="https://iklankan.tech" target="blank">
               <button className="button-oxford hover:bg-coral hover:text-oxford hover:font-bold focus:outline-none md:ml-8 lg:ml-0 md:mb-4 lg:mb-0">
@@ -55,9 +56,9 @@ export default function Portfolio() {
               />
             </div>
             <div className="mt-2 text-lg md:px-8 lg:px-0">
-              An ecommerce to connect Bakers (people who can bake high quality
-              pastries) and Users in an online platform. I created it with React
-              with Redux for front-end, Python Flask for back-end, and MySQL for
+              An e-commerce to connect people who can bake high quality pastries
+              and users in an online platform. I created it with React with
+              Redux for front-end, Python Flask for back-end, and MySQL for
               database.
             </div>
             <a href="https://breadcrumb.andrenovado.my.id" target="blank">
@@ -88,10 +89,9 @@ export default function Portfolio() {
             </div>
             <div className="mt-2 text-lg md:px-8 lg:px-0">
               I cloned part of the spacestock website, a platform to market
-              apartment buildings and rooms. I created this using React with. I
-              created it with React with Redux for front-end, Python Flask for
-              back-end, and MySQL for database. Redux for front-end and Python
-              Flask for back-end.
+              apartment buildings and rooms. I created this in 2 weeks, using
+              React with Redux for front-end, Python Flask for back-end, and
+              MySQL for database.
             </div>
             <a href="https://spacestock.andrenovado.my.id" target="blank">
               <button className="button-oxford hover:bg-coral hover:text-oxford hover:font-bold focus:outline-none md:ml-8 lg:ml-0 md:mb-4 lg:mb-0">
@@ -121,10 +121,9 @@ export default function Portfolio() {
             </div>
             <div className="mt-2 text-lg md:px-8 lg:px-0">
               I was part of a team who redesigned the Alterra Academy website in
-              2 weeks. The website was developed with NextJS and Tailwind CSS. I
-              created it with React with Redux for front-end, Python Flask for
-              back-end, and MySQL for database. for front-end, and ExpressJs for
-              back-end.
+              2 weeks. The website was developed with NextJS and Tailwind CSS
+              for front-end, ExpressJs for back-end, and MySQL for database. My
+              role during the development process was as the front-end engineer.
             </div>
             <a href="https://academy.alterra.id" target="blank">
               <button className="button-coral hover:bg-oxford hover:text-coral hover:font-bold focus:outline-none md:ml-8 lg:ml-0 md:mb-4 lg:mb-0">
@@ -154,9 +153,7 @@ export default function Portfolio() {
             </div>
             <div className="mt-2 text-lg md:px-8 lg:px-0">
               This game is inspired by memory card game. From there, I developed
-              it by integrating naruto-theme and adding multiple difficulties. I
-              created it with React with Redux for front-end, Python Flask for
-              back-end, and MySQL for database. level with different time box.
+              it by integrating naruto theme, and adding multiple difficulties.
               This game was created with HTML, CSS, and Javascript DOM (without
               any framework).
             </div>
